@@ -5,6 +5,7 @@ export default function Demo(){
     const badNotify = () => toast.error('what happened dude??')
     return(
         <>
+        
         <Toaster/>
         <p> Aca va el HTML </p>
         <button onClick={notify} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> hola bb </button>
